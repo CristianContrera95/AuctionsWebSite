@@ -1,6 +1,7 @@
-# Remates calamuchita 
-Pagina web de remate
+# Base Web Site
+Base Web Site project made with ReactJS and Python3.6+
 
 ## Folders:  
-Frontend: Contains frontend subproject  
-Backend Contains backend subprojec
+frontend: Contains frontend subproject 
+backend: Contains backend subprojec
+database: Contains data-base config and scripts files
