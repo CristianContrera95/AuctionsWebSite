@@ -1,0 +1,40 @@
+img {
+    opacity: 1.0;
+    size: auto;
+}
+
+.img-hover-effect:hover {
+    opacity: .8;
+}
+
+.img-hover-effect img {
+    opacity: 1;
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+}
+
+@media only screen and (max-width: 780px) {
+    #filtros_for_home {
+        display: none;
+    }
+}
+
+.titulo {
+    height: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    max-width: 400px;
+}
+
+.subtitulo {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

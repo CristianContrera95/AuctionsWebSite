@@ -1,0 +1,25 @@
+
+version: '2'
+
+services:
+
+   app:
+      build: .
+      image: rematar-backend
+      links:
+        - db
+      ports:
+        - "5000:5000"
+      volumes:
+        - ./src:/app/.
+      restart: always
+
+   db:
+      image: mysql:8
+      ports:
+        - "32000:3306"
+      environment:
+        MYSQL_ROOT_PASSWORD: "fernetconcoca2020!"
+      volumes:
+        - ./db:/docker-entrypoint-initdb.d/:ro
+      restart: always
