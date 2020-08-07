@@ -2,5 +2,5 @@
 Pagina web de remate
 
 ## Folders:  
-Rematar-frontend: Contains frontend subproject  
-Rematar-backend Contains backend subprojec
+Frontend: Contains frontend subproject  
+Backend Contains backend subprojec
